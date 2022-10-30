@@ -1,7 +1,7 @@
 More coming soon
 
-##Comparison with other frameworks
+## Comparison with other frameworks
 
-####Canvas
+#### Canvas
 
-####Core Impact
+#### Core Impact
