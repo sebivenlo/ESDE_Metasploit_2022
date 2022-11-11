@@ -1,5 +1,8 @@
 More coming soon
 
+Shared files to easier collaborate
+-> https://stichtingfontys.sharepoint.com/sites/ESDE_Workshop_Metasploit
+
 ## Comparison with other frameworks
 
 #### Canvas
