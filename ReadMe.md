@@ -3,9 +3,8 @@ by Niklas Thürnau and Julia Sartori-Schwendemann
 
 The Metasploit Framework is a computer security project by Rapid7 to facilitate penetration testing
 
-### Sources
 
-#### Sources for the Workshop
+### Sources for the Workshop
 
 Metasploit Unleashed https://www.offensive-security.com/metasploit-unleashed/
 
