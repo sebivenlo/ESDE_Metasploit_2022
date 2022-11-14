@@ -1,4 +1,4 @@
-## ESDE Workshop 2022 to the Metasploit Project
+## ESDE Workshop 2022 for the Metasploit Framework
 by Niklas Thürnau and Julia Sartori-Schwendemann
 
 The Metasploit Framework is a computer security project by Rapid7 to facilitate penetration testing
