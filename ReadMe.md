@@ -1,9 +1,10 @@
-More coming soon
+##ESDE Workshop 2022 to Metasploit
+by Niklas Thürnau and Julia Sartori-Schwendemann
 
 Shared files to easier collaborate
 -> https://stichtingfontys.sharepoint.com/sites/ESDE_Workshop_Metasploit
 
-## Comparison with other frameworks
+### Comparison with other frameworks
 
 #### Canvas
 
