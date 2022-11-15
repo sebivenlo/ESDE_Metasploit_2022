@@ -3,6 +3,13 @@ by Niklas Thürnau and Julia Sartori-Schwendemann
 
 The Metasploit Framework is a computer security project by Rapid7 to facilitate penetration testing
 
+QUIZIZZ: https://quizizz.com/join/quiz/63737acf0f9a4a001dfcd9be/start?studentShare=true
+
+### Comparison with other frameworks
+
+#### Canvas
+
+#### Core Impact
 
 ### Sources for the Workshop
 
@@ -13,9 +20,3 @@ The Metasploit Framework is a computer security project by Rapid7 to facilitate 
 
 * Where can you download the target vm for yourself?
 -> Rapid7 https://information.rapid7.com/download-metasploitable-2017.html
-
-### Comparison with other frameworks
-
-#### Canvas
-
-#### Core Impact
