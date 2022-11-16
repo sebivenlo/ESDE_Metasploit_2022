@@ -70,5 +70,4 @@ QUIZIZZ: https://quizizz.com/join/quiz/63737acf0f9a4a001dfcd9be/start?studentSha
 * Canvas https://immunityinc.com/products/canvas/
 
 
-*Incase dockerfile is not working properly
-docker pull metasploitframework/metasploit-framework
+* Incase dockerfile is not working properly docker pull metasploitframework/metasploit-framework
