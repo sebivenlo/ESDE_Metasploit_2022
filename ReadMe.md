@@ -52,15 +52,13 @@ Main features are
 * Centralized Toolset
 
 
-Here you can find the quiz to test your knowleds of Metasploit:
+
+Here you can find the quiz to test your knowledge of Metasploit:
 QUIZIZZ: https://quizizz.com/join/quiz/63737acf0f9a4a001dfcd9be/start?studentShare=true
 
 ### Sources for the Workshop
 
 * Metasploit Unleashed https://www.offensive-security.com/metasploit-unleashed/
-
-* Shared files to easier collaborate
--> https://stichtingfontys.sharepoint.com/sites/ESDE_Workshop_Metasploit
 
 * Where can you download the target vm for yourself?
 -> Rapid7 https://information.rapid7.com/download-metasploitable-2017.html
