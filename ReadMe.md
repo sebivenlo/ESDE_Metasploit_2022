@@ -3,7 +3,38 @@ by Niklas Thürnau and Julia Sartori-Schwendemann
 
 The Metasploit Framework is a computer security project by Rapid7 to facilitate penetration testing
 
-QUIZIZZ: https://quizizz.com/join/quiz/63737acf0f9a4a001dfcd9be/start?studentShare=true
+Disclaimer!
+Only use the skills you learn in this workshop on your own systems or systems which are provided for this purpose
+
+
+#### Architecture
+The main architectural features of Metasploit are
+* Filesystem and Libraries
+* Modules and Location
+* Metasploit Object Modle
+* Mixins and Plugins
+
+#### Fundamentals
+* MSFcli
+* MSFConsole
+* Exploits
+* Meterpreter
+
+#### Information Gathering
+Metasploit gathers information by using the following tactics:
+* Port Scanning
+* Hunting for MSSQL
+* Service Identification
+* Password Sniffing
+* SNMP Sweeping
+
+#### Vulnerability Scanning
+* SMB Login Check
+* VCN Authentication
+* WMAP Web Scanner
+* Working with Nexpose
+* Working with Nessus
+
 
 ### Comparison with other frameworks
 
@@ -19,6 +50,10 @@ Main features are
 * Rapid Penetration Testing
 * Core Certified Exploits
 * Centralized Toolset
+
+
+Here you can find the quiz to test your knowleds of Metasploit:
+QUIZIZZ: https://quizizz.com/join/quiz/63737acf0f9a4a001dfcd9be/start?studentShare=true
 
 ### Sources for the Workshop
 
