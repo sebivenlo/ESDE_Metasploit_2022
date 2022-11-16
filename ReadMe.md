@@ -68,3 +68,7 @@ QUIZIZZ: https://quizizz.com/join/quiz/63737acf0f9a4a001dfcd9be/start?studentSha
 * Core Impact https://www.coresecurity.com/products/core-impact
 
 * Canvas https://immunityinc.com/products/canvas/
+
+
+*Incase dockerfile is not working properly
+docker pull metasploitframework/metasploit-framework
