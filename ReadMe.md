@@ -8,12 +8,14 @@ QUIZIZZ: https://quizizz.com/join/quiz/63737acf0f9a4a001dfcd9be/start?studentSha
 ### Comparison with other frameworks
 
 #### Canvas
+Main Features are 
 * Payload Options
 * Exploit Delivery
 * Exploit Creation Time
 * Custom Exploits
 
 #### Core Impact
+Main features are
 * Rapid Penetration Testing
 * Core Certified Exploits
 * Centralized Toolset
