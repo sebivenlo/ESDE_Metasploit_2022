@@ -20,3 +20,9 @@ QUIZIZZ: https://quizizz.com/join/quiz/63737acf0f9a4a001dfcd9be/start?studentSha
 
 * Where can you download the target vm for yourself?
 -> Rapid7 https://information.rapid7.com/download-metasploitable-2017.html
+
+* Metasploit https://www.metasploit.com
+
+* Core Impact https://www.coresecurity.com/products/core-impact
+
+* Canvas https://immunityinc.com/products/canvas/
