@@ -8,8 +8,15 @@ QUIZIZZ: https://quizizz.com/join/quiz/63737acf0f9a4a001dfcd9be/start?studentSha
 ### Comparison with other frameworks
 
 #### Canvas
+* Payload Options
+* Exploit Delivery
+* Exploit Creation Time
+* Custom Exploits
 
 #### Core Impact
+* Rapid Penetration Testing
+* Core Certified Exploits
+* Centralized Toolset
 
 ### Sources for the Workshop
 
