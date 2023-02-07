@@ -1,4 +1,4 @@
-## ESDE Workshop 2022 for the Metasploit Framework
+# ESDE Workshop 2022 for the Metasploit Framework
 by Niklas Thürnau and Julia Sartori-Schwendemann
 
 The Metasploit Framework (MSF) is a computer security project by Rapid7 to facilitate penetration testing. It is written in Ruby and available as open source software. 
@@ -7,15 +7,15 @@ The Metasploit Framework (MSF) is a computer security project by Rapid7 to facil
 ##### Only use the skills you learn in this workshop on your own systems or systems which are provided for this purpose
 
 
-### Architecture
+## Architecture
 The MSF is organized as a file system with several directories. 
 The most important directories are:
 ##### Data
-* Documentation
-* Lib
-* Modules and Location
-* Metasploit Object Modle
-* Mixins and Plugins
+#### Documentation
+#### Lib
+#### Modules and Location
+#### Metasploit Object Modle
+#### Mixins and Plugins
 
 ### Fundamentals
 * MSFcli
