@@ -1,26 +1,29 @@
 ## ESDE Workshop 2022 for the Metasploit Framework
 by Niklas Thürnau and Julia Sartori-Schwendemann
 
-The Metasploit Framework is a computer security project by Rapid7 to facilitate penetration testing
+The Metasploit Framework (MSF) is a computer security project by Rapid7 to facilitate penetration testing. It is written in Ruby and available as open source software. 
 
 #### Disclaimer!
 ##### Only use the skills you learn in this workshop on your own systems or systems which are provided for this purpose
 
 
-#### Architecture
-The main architectural features of Metasploit are
-* Filesystem and Libraries
+### Architecture
+The MSF is organized as a file system with several directories. 
+The most important directories are:
+##### Data
+* Documentation
+* Lib
 * Modules and Location
 * Metasploit Object Modle
 * Mixins and Plugins
 
-#### Fundamentals
+### Fundamentals
 * MSFcli
 * MSFConsole
 * Exploits
 * Meterpreter
 
-#### Information Gathering
+### Information Gathering
 Metasploit gathers information by using the following tactics:
 * Port Scanning
 * Hunting for MSSQL
@@ -28,7 +31,7 @@ Metasploit gathers information by using the following tactics:
 * Password Sniffing
 * SNMP Sweeping
 
-#### Vulnerability Scanning
+### Vulnerability Scanning
 * SMB Login Check
 * VCN Authentication
 * WMAP Web Scanner
@@ -36,16 +39,16 @@ Metasploit gathers information by using the following tactics:
 * Working with Nessus
 
 
-### Comparison with other frameworks
+# Comparison with other frameworks
 
-#### Canvas
+### Canvas
 Main Features are 
 * Payload Options
 * Exploit Delivery
 * Exploit Creation Time
 * Custom Exploits
 
-#### Core Impact
+### Core Impact
 Main features are
 * Rapid Penetration Testing
 * Core Certified Exploits
