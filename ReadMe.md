@@ -18,10 +18,10 @@ The most important directories are:
 ### Mixins and Plugins
 
 ## Fundamentals
-* MSFcli
-* MSFConsole
-* Exploits
-* Meterpreter
+### MSFcli
+### MSFConsole
+### Exploits
+### Meterpreter
 
 ## Information Gathering
 Metasploit gathers information by using the following tactics:
