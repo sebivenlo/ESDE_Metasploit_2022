@@ -4,14 +4,15 @@ by Niklas Thürnau and Julia Sartori-Schwendemann
 The Metasploit Framework (MSF) is a computer security project by Rapid7 to facilitate penetration testing. It is written in Ruby and available as open source software. 
 
 ### Disclaimer!
-#### Only use the skills you learn in this workshop on your own systems or systems which are provided for this purpose
+#### Only use the skills you learn in this workshop on your own systems or on systems which are provided for this purpose
 
 
 ## Architecture
-The MSF is organized as a file system with several directories. 
-The most important directories are:
+The MSF is organized as a file system with several directories. Each directory serves its own purpose and contains specific information / files.
 ### Data
+The data directory contains editalbe files that are used to store binaries that are needed for certain exploits. It can also contain wordlists, images, ect.
 ### Documentation
+This directory contains all the availabe documentation for the MSF.
 ### Lib
 ### Modules and Location
 ### Metasploit Object Modle
