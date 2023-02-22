@@ -1,26 +1,30 @@
-## ESDE Workshop 2022 for the Metasploit Framework
+# ESDE Workshop 2022 for the Metasploit Framework
 by Niklas Thürnau and Julia Sartori-Schwendemann
 
-The Metasploit Framework is a computer security project by Rapid7 to facilitate penetration testing
+The Metasploit Framework (MSF) is a computer security project by Rapid7 to facilitate penetration testing. It is written in Ruby and available as open source software. 
 
-#### Disclaimer!
-##### Only use the skills you learn in this workshop on your own systems or systems which are provided for this purpose
+### Disclaimer!
+#### Only use the skills you learn in this workshop on your own systems or on systems which are provided for this purpose
 
 
-#### Architecture
-The main architectural features of Metasploit are
-* Filesystem and Libraries
-* Modules and Location
-* Metasploit Object Modle
-* Mixins and Plugins
+## Architecture
+The MSF is organized as a file system with several directories. Each directory serves its own purpose and contains specific information / files.
+### Data
+The data directory contains editalbe files that are used to store binaries that are needed for certain exploits. It can also contain wordlists, images, ect.
+### Documentation
+This directory contains all the availabe documentation for the MSF.
+### Lib
+### Modules and Location
+### Metasploit Object Modle
+### Mixins and Plugins
 
-#### Fundamentals
-* MSFcli
-* MSFConsole
-* Exploits
-* Meterpreter
+## Fundamentals
+### MSFcli
+### MSFConsole
+### Exploits
+### Meterpreter
 
-#### Information Gathering
+## Information Gathering
 Metasploit gathers information by using the following tactics:
 * Port Scanning
 * Hunting for MSSQL
@@ -28,7 +32,7 @@ Metasploit gathers information by using the following tactics:
 * Password Sniffing
 * SNMP Sweeping
 
-#### Vulnerability Scanning
+## Vulnerability Scanning
 * SMB Login Check
 * VCN Authentication
 * WMAP Web Scanner
@@ -36,16 +40,16 @@ Metasploit gathers information by using the following tactics:
 * Working with Nessus
 
 
-### Comparison with other frameworks
+# Comparison with other frameworks
 
-#### Canvas
+## Canvas
 Main Features are 
 * Payload Options
 * Exploit Delivery
 * Exploit Creation Time
 * Custom Exploits
 
-#### Core Impact
+## Core Impact
 Main features are
 * Rapid Penetration Testing
 * Core Certified Exploits
@@ -56,7 +60,7 @@ Main features are
 Here you can find the quiz to test your knowledge of Metasploit:
 QUIZIZZ: https://quizizz.com/join/quiz/63737acf0f9a4a001dfcd9be/start?studentShare=true
 
-### Sources for the Workshop
+# Sources for the Workshop
 
 * Metasploit Unleashed https://www.offensive-security.com/metasploit-unleashed/
 
