@@ -27,15 +27,27 @@ sudo docker run \
     /bin/bash
 
 
-First try finding all open ports and the corresponding services:
+First try to start the metasploit console:
 
 <details>
-  <summary>Spoiler warning</summary>
+  <summary>Hint</summary>
   
-  Spoiler text. Note that it's important to have a space after the summary tag. You should be able to write any markdown you want inside the `<details>` tag... just make sure you close `<details>` afterward.
-  
-  ```
-  console.log("I'm a code block!");
+  ```javascript
+  msfconsole
   ```
   
 </details>
+
+Now try finding all open ports and the corresponding services:
+
+<details>
+  <summary>Hint</summary>
+  
+  ```javascript
+  nmap -sV 10.0.0.3
+  ```
+  
+</details>
+
+Further more try to proceed by using one or more of the found services.
+To avoid further spoilers possible attack vectors will be explained in solutions.md
