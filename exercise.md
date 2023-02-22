@@ -1,6 +1,6 @@
 run both commands in seperate windows. 
 
-To run the instance of metasploitable 
+To run the instance of metasploitable:
 
 docker run \
     -it \
@@ -11,6 +11,8 @@ docker run \
     tleemcjr/metasploitable2 \
     bash
 
+
+To run the attacker instance:
 
 sudo docker run \
     --name parrot \
