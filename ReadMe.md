@@ -6,6 +6,8 @@ The Metasploit Framework (MSF) is a computer security project by Rapid7 to facil
 ### Disclaimer!
 #### Only use the skills you learn in this workshop on your own systems or on systems which are provided for this purpose
 
+### Practical
+For the practical part please use exercise.md (and if you want to spoil yourself the solutions.md) in github. 
 
 ## Architecture
 The MSF is organized as a file system with several directories. Each directory serves its own purpose and contains specific information / files.
