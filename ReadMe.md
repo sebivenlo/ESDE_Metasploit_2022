@@ -90,6 +90,8 @@ Main features are
 * Core Certified Exploits
 * Centralized Toolset
 
+While there are other tools for penetration testing, the community driven aspect of and that it is available as open-source software are two key advantages of Metasploit. They facilitate the sharing of knowledge within the community and make easy for beginners to find a starting point.
+
 ## Quiz
 
 Here you can find the quiz to test your knowledge of Metasploit:
