@@ -28,7 +28,7 @@ The main libraries are:
 
 ### Modules
 Modules are used execute tasks.
-There are five different types of modules:
+There are five main types of modules:
 * Exploits: Executing of command sequences
 * Payload: Code that runs remotely
 * Encoder: Make sure that payloads can be execute in the exploited system
