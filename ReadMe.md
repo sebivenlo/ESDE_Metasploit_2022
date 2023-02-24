@@ -27,7 +27,7 @@ The main libraries are:
 * MSF Base: easier to use API
 
 ### Modules
-Modules are the 
+Modules are used execute tasks.
 There are five different types of modules:
 * Exploits: Executing of command sequences
 * Payload: Code that runs remotely
