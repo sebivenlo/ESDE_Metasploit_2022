@@ -66,11 +66,13 @@ Metasploit gathers information by using the following tactics:
 * SNMP Sweeping
 
 ## Vulnerability Scanning
+Another useful task for penetration testing is scanning for vulnerabilities. There are many known vulnerabilities that give an experienced penetration tester an idea which exploits might be successful. Metasploit has several features that are used to scan for vulnerabilities.
+Some important ones are:
+* VCN Authentication 
 * SMB Login Check
-* VCN Authentication
 * WMAP Web Scanner
-* Working with Nexpose
 * Working with Nessus
+* Working with Nexpose
 
 
 # Comparison with other frameworks
