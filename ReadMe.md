@@ -50,7 +50,8 @@ The MSFconsole is probably the most widely used Metasploit interface. As the nam
 When starting out or if you need assistance down the line, you can use the help command to get a list of all your options.
 
 ### Exploits
-There are active and passive exploits in the Metasploit Framework.
+There are two kinds of exploits in the Metasploit Framework. Active and passive exploits.
+
 While active exploits will target a specific host, run the exploit, and then exit, passive exploits wait until a host establishes a connection and then run exploits on them.
 
 ## Information Gathering
