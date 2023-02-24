@@ -49,7 +49,7 @@ Mixins are a feature of Ruby. They allow the user to include one class into anot
 ## Information Gathering
 Metasploit gathers information by using the following tactics:
 * Port Scanning
-* Hunting for MSSQL
+* Hunting for SQL
 * Service Identification
 * Password Sniffing
 * SNMP Sweeping
