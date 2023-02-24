@@ -57,6 +57,7 @@ While active exploits will target a specific host, run the exploit, and then exi
 ### Meterpreter
 
 ## Information Gathering
+One of the most important tasks for successful penetration testing is the gathering of information. The more you know about a potential target, the easier it is to exploit that target.
 Metasploit gathers information by using the following tactics:
 * Port Scanning
 * Hunting for SQL
