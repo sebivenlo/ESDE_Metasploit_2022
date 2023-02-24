@@ -57,21 +57,18 @@ While active exploits will target a specific host, run the exploit, and then exi
 ## Information Gathering
 One of the most important tasks for successful penetration testing is the gathering of information. The more you know about a potential target, the easier it is to exploit that target.
 Metasploit gathers information by using the following tactics:
-* Port Scanning
-* Hunting for SQL
-* Service Identification
-* Password Sniffing
-* SNMP Sweeping
+* Port scanning
+* Hunting for SQL to draw a conclusions on used TCP or UDP ports
+* Identify wich services a target is using, e.g. ssh or ftp
+* Password sniffing
+* SNMP sweeping to gather information or even compromise the remote device
 
 ## Vulnerability Scanning
 Another useful task for penetration testing is scanning for vulnerabilities. There are many known vulnerabilities that give an experienced penetration tester an idea which exploits might be successful. Metasploit has several features that are used to scan for vulnerabilities.
 Some important ones are:
-* VCN Authentication 
-* SMB Login Check
-* WMAP Web Scanner
-* Working with Nessus
-* Working with Nexpose
-
+* VCN Authentication: Scanning for targets that run a VCN server without password
+* SMB Login Check: Having a valid combination of username and password and trying them somewhere else
+* Working with vulnerability scanners such as WMAP Web Scanner, Nessus Vulnerability Scanner or Nessus
 
 ## Comparison with other frameworks
 
