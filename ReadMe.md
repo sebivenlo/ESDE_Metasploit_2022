@@ -35,7 +35,6 @@ There are five main types of modules:
 * NPOs: Generate random byte sequences to conceal payloads
 * Auxiliary: Tools like scanners, sniffers, fuzzer, etc.
 
-### Metasploit Object Modle
 ### Mixins and Plugins
 Plugins work directly with the API and extend the framework functionality. They only work in the msfconsole.
 Mixins are a feature of Ruby. They allow the user to include one class into another and override methods. That way the user can manipulate a module and make protocol- or behaviour-specific changes.
@@ -53,8 +52,6 @@ When starting out or if you need assistance down the line, you can use the help 
 ### Exploits
 There are active and passive exploits in the Metasploit Framework.
 While active exploits will target a specific host, run the exploit, and then exit, passive exploits wait until a host establishes a connection and then run exploits on them.
-
-### Meterpreter
 
 ## Information Gathering
 One of the most important tasks for successful penetration testing is the gathering of information. The more you know about a potential target, the easier it is to exploit that target.
