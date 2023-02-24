@@ -10,13 +10,31 @@ The Metasploit Framework (MSF) is a computer security project by Rapid7 to facil
 For the practical part please use exercise.md (and if you want to spoil yourself the solutions.md) in github. 
 
 ## Architecture
+### Filesystem
 The MSF is organized as a file system with several directories. Each directory serves its own purpose and contains specific information / files.
-### Data
-The data directory contains editalbe files that are used to store binaries that are needed for certain exploits. It can also contain wordlists, images, ect.
-### Documentation
-This directory contains all the availabe documentation for the MSF.
-### Lib
-### Modules and Location
+The subdirectories are:
+* Data
+* Documentation
+* Lib
+* Modules
+* Plugins
+
+### Libraries
+With the use of libraries, the user can run exploits without writing code for basic and recurring tasks like http requests.
+The main libraries are:
+* REX: basic library for most tasks
+* MSF Core: base API for MSF
+* MSF Base: easier to use API
+
+### Modules
+Modules are the 
+There are five different types of modules:
+* Exploits: Executing of command sequences
+* Payload: Code that runs remotely
+* Encoder: Make sure that payloads can be execute in the exploited system
+* NPOs: Generate random byte sequences to conceal payloads
+* Auxiliary: Tools like scanners, sniffers, fuzzer, etc.
+
 ### Metasploit Object Modle
 ### Mixins and Plugins
 
