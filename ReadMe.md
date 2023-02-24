@@ -75,16 +75,16 @@ Some important ones are:
 * Working with Nexpose
 
 
-# Comparison with other frameworks
+## Comparison with other frameworks
 
-## Canvas
+### Canvas
 Main Features are 
 * Payload Options
 * Exploit Delivery
 * Exploit Creation Time
 * Custom Exploits
 
-## Core Impact
+### Core Impact
 Main features are
 * Rapid Penetration Testing
 * Core Certified Exploits
