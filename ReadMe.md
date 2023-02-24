@@ -37,6 +37,8 @@ There are five different types of modules:
 
 ### Metasploit Object Modle
 ### Mixins and Plugins
+Plugins work directly with the API and extend the framework functionality. They only work in the msfconsole.
+Mixins are a feature of Ruby. They allow the user to include one class into another and override methods. That way the user can manipulate a module and make protocol- or behaviour-specific changes.
 
 ## Fundamentals
 ### MSFcli
