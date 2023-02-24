@@ -71,6 +71,8 @@ QUIZIZZ: https://quizizz.com/join/quiz/63737acf0f9a4a001dfcd9be/start?studentSha
 
 * Metasploit https://www.metasploit.com
 
+* turingpoint. https://turingpoint.de/blog/was-ist-metasploit/
+
 * Core Impact https://www.coresecurity.com/products/core-impact
 
 * Canvas https://immunityinc.com/products/canvas/
