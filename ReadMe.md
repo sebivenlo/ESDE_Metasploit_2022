@@ -41,9 +41,19 @@ Plugins work directly with the API and extend the framework functionality. They 
 Mixins are a feature of Ruby. They allow the user to include one class into another and override methods. That way the user can manipulate a module and make protocol- or behaviour-specific changes.
 
 ## Fundamentals
-### MSFcli
-### MSFConsole
+
+### Interfaces
+There are several interfaces for Metasploit. Each with their specific strength and weaknesses. 
+#### MSFcli
+Even though the MSFcli is no longer supported, we still think it is a useful tool. Especially for one-off exploits or when developing and testing new exploits.
+#### MSFconsole
+The MSFconsole is probably the most widely used Metasploit interface. As the name suggests it is a console-based interface that allows the user to execute commands. It is the only supported way to access most of the features within Metasploit. 
+When starting out or if you need assistance down the line, you can use the help command to get a list of all your options.
+
 ### Exploits
+There are active and passive exploits in the Metasploit Framework.
+While active exploits will target a specific host, run the exploit, and then exit, passive exploits wait until a host establishes a connection and then run exploits on them.
+
 ### Meterpreter
 
 ## Information Gathering
